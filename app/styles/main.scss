@@ -1,0 +1,19 @@
+@import "base";
+
+.container {
+    @include container;
+}
+
+#left {
+    background-color: #eee;
+    @include column(8);
+}
+
+#right {
+    background-color: #f7f7f7;
+    @include column(16, true);
+}
+
+.active a {
+    color: #0f0;
+}
