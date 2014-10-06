@@ -1,0 +1,20 @@
+#left,
+#right {
+    float: left;
+}
+
+#left {
+    width: 33%;
+
+    background-color: #333;
+}
+
+#right {
+    width: 67%;
+
+    background-color: #555;
+}
+
+main > header:first-child {
+	background-color: #777;
+}
